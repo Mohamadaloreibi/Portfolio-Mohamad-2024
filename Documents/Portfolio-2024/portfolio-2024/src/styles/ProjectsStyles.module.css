@@ -1,0 +1,20 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Centrerar horisontellt */
+  justify-content: center;  /* Centrerar vertikalt */
+  height: 300px;            /* Tillräcklig höjd för att centreringsreglerna ska gälla */
+  text-align: center;       /* Texten i mitten */
+}
+
+.projects h2 {
+  font-size: 3rem;          /* Stor rubriktext */
+  margin-bottom: 20px;      /* Extra utrymme under rubriken */
+  font-weight: bold;        /* Gör rubriken mer framträdande */
+}
+
+.coming-soon-text {
+  font-size: 1.5rem;        /* Storlek på texten under rubriken */
+  color: #555;              /* Färg på texten under rubriken */
+  margin: 0;                /* Ingen marginal, texten ska vara direkt under rubriken */
+}
